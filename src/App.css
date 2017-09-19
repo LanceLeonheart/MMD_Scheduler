@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.open{
+    background-color: #008000;
+}
+
+.taken{
+    background-color: red;
+}
+
+.timeSlot{
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: #f0f8ff;
+    width: 50vw;
+    height: 50vh;
+    top: 25vh;
+    left: 25vw;
+}
+
+.modal > h2{
+    margin-bottom: 45px;
+}
+
+.modalClose{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+#submitBtn{
+    cursor: pointer;
+}
